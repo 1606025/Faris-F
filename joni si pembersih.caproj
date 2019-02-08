@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>joni si pembersih</name>
+    <description>patimah</description>
+    <version>1.0.0.0</version>
+    <author>patimah</author>
+    <author-email>patimah@gmail.com</author-email>
+    <author-website>http://</author-website>
+    <app-id>com.labrin.myapp</app-id>
+    <unique-id>16rx7n6lai5ub</unique-id>
+    <saved-with-version>22700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1136</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="bg" sid="128545133825286">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9553050940758914" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\produktif\timbul\GAME LABIRIN PATIMAH\bahan\bg.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.999121" y="0.0015625" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="8844859798600445">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite" sid="7380586502535237">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3597351283611319">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9391545510294834" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\GAME LABIRIN PATIMAH\bahan\Untitled-1.png">
+                        <collision-poly>
+                            <point x="0.00909091" y="0.0192308" />
+                            <point x="0.990909" y="0.0192308" />
+                            <point x="0.990909" y="0.980769" />
+                            <point x="0.00909091" y="0.980769" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="2208905652841094">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="974446236120266">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="8598805923471634">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5073537939949524" speed="5">
+                    <frame duration="1" hotspotX="0.50193" hotspotY="0.5" original-source="D:\produktif\timbul\GAME LABIRIN PATIMAH\bahan\krktr.png">
+                        <collision-poly>
+                            <point x="0.30888" y="0.19802" />
+                            <point x="0.498069" y="0.0965347" />
+                            <point x="0.818533" y="0.116337" />
+                            <point x="0.930502" y="0.5" />
+                            <point x="0.752896" y="0.841584" />
+                            <point x="0.498069" y="0.967822" />
+                            <point x="0.0656371" y="0.957921" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="7197077454792359">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4970577192713336" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\GAME LABIRIN PATIMAH\bahan\mknn.png">
+                        <collision-poly>
+                            <point x="0.234375" y="0.5" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.953125" y="0.1" />
+                            <point x="0.90625" y="0.5" />
+                            <point x="0.84375" y="0.666667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.015625" y="0.966667" />
+                            <point x="0.234375" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mknn" sid="5242713811949403">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9643645071992441" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\patimah labirin\bahan\mknn.png">
+                        <collision-poly>
+                            <point x="0.234375" y="0.5" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.953125" y="0.1" />
+                            <point x="0.90625" y="0.5" />
+                            <point x="0.84375" y="0.666667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.015625" y="0.966667" />
+                            <point x="0.234375" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="9581592024545457">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="type" sid="9394567571400651" type="string" />
+            </instance-variables>
+            <texture original-source="D:\produktif\timbul\Game Countruck - Copy\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
+        </object-type>
+        <object-type name="Sprite4" sid="9055604401474268">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8417376939794351" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="transparentDark" sid="7211930011166277">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7032402089987593" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\Game Countruck - Copy\Platformer\Control\transparentDark\transparentDark22.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0.0125" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="transparentDark2" sid="1306353055664011">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1395083287725064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\Game Countruck - Copy\Platformer\Control\transparentDark\transparentDark23.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0.0125" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="transparentDark3" sid="8377822967096077">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1860677584204265" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\Game Countruck - Copy\Platformer\Control\transparentDark\transparentDark24.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0.0125" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="transparentDark4" sid="6976400432229655">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3079002153504341" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\Game Countruck - Copy\Platformer\Control\transparentDark\transparentDark25.png">
+                        <collision-poly>
+                            <point x="0.15" y="0.15" />
+                            <point x="0.5" y="0.0125" />
+                            <point x="0.85" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85" y="0.85" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="9287412756455096">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Audio" sid="297699247125073">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="BG2" sid="2810171548733743">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8954282566731349" speed="5">
+                    <frame duration="1" hotspotX="0.500434" hotspotY="0.500766" original-source="D:\produktif\ujikom\patimah labirin\bahan\BG5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Play" sid="4113228640114909">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1569784838372884" speed="5">
+                    <frame duration="1" hotspotX="0.502326" hotspotY="0.505155" original-source="D:\produktif\ujikom\patimah labirin\bahan\Play1.png">
+                        <collision-poly>
+                            <point x="0.0372093" y="0.0824742" />
+                            <point x="0.497674" y="0.0206186" />
+                            <point x="0.95814" y="0.0927835" />
+                            <point x="0.990698" y="0.494845" />
+                            <point x="0.953488" y="0.896907" />
+                            <point x="0.497674" y="0.948454" />
+                            <point x="0.0418605" y="0.907216" />
+                            <point x="0.00930233" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="8390699575269771">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="hudHeart_full" sid="7700079544210343">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6470849854339093" speed="5">
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.509434" original-source="D:\produktif\timbul\Game Countruck - Copy\PNG\extra\hudHeart_full.png">
+                        <collision-poly>
+                            <point x="0.0819672" y="0.0943396" />
+                            <point x="0.491803" y="0.0754717" />
+                            <point x="0.918033" y="0.0943396" />
+                            <point x="0.967213" y="0.490566" />
+                            <point x="0.786885" y="0.754717" />
+                            <point x="0.491803" y="0.981132" />
+                            <point x="0.213115" y="0.754717" />
+                            <point x="0.0327869" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="enemyFloating_" sid="9933993129725619">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3151074062790608" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\Game Countruck - Copy\PNG\Enemies\enemyFloating_1.png">
+                        <collision-poly>
+                            <point x="0.0238095" y="0.025" />
+                            <point x="0.97619" y="0.025" />
+                            <point x="0.97619" y="0.975" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0238095" y="0.975" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hudHeart_full2" sid="162511429346074">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3607548951111733" speed="5">
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.509434" original-source="D:\produktif\timbul\Game Countruck - Copy\PNG\extra\hudHeart_full.png">
+                        <collision-poly>
+                            <point x="0.0819672" y="0.0943396" />
+                            <point x="0.491803" y="0.0754717" />
+                            <point x="0.918033" y="0.0943396" />
+                            <point x="0.967213" y="0.490566" />
+                            <point x="0.786885" y="0.754717" />
+                            <point x="0.491803" y="0.981132" />
+                            <point x="0.213115" y="0.754717" />
+                            <point x="0.0327869" y="0.490566" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wdw" sid="2694487725728727">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3991243454707863" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\ujikom\patimah labirin\bahan\wdw1.png">
+                        <collision-poly>
+                            <point x="0.0104334" y="0.0148233" />
+                            <point x="0.5" y="0.00114025" />
+                            <point x="0.989968" y="0.0142531" />
+                            <point x="0.989567" y="0.985177" />
+                            <point x="0.5" y="0.99886" />
+                            <point x="0.0104334" y="0.985177" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wdw2" sid="5958492031868023">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9226716593216315" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\ujikom\patimah labirin\bahan\wdw2.png">
+                        <collision-poly>
+                            <point x="0.0829694" y="0.327586" />
+                            <point x="0.5" y="0.00862069" />
+                            <point x="0.917031" y="0.327586" />
+                            <point x="0.997817" y="0.991379" />
+                            <point x="0.5" y="0.655172" />
+                            <point x="0.0174672" y="0.931035" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_" sid="2548678389084011">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7194025589991875" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\ujikom\joni\bahan\Button_74.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.913043" y="0.0833333" />
+                            <point x="0.978261" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0978261" y="0.90625" />
+                            <point x="0.0108696" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\ujikom\joni\bahan\Button_77.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.913043" y="0.0833333" />
+                            <point x="0.978261" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0978261" y="0.90625" />
+                            <point x="0.0108696" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="2405237033128613">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="BG3" sid="8953752906064429">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1866919076939391" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\produktif\ujikom\joni\bahan\BG5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Play2" sid="8092181491625777">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7568157855864816" speed="0">
+                    <frame duration="1" hotspotX="0.502326" hotspotY="0.505155" original-source="D:\produktif\ujikom\joni\bahan\Play1.png">
+                        <collision-poly>
+                            <point x="0.0372093" y="0.0824742" />
+                            <point x="0.497674" y="0.0206186" />
+                            <point x="0.95814" y="0.0927835" />
+                            <point x="0.990698" y="0.494845" />
+                            <point x="0.953488" y="0.896907" />
+                            <point x="0.497674" y="0.948454" />
+                            <point x="0.0418605" y="0.907216" />
+                            <point x="0.00930233" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="D:\produktif\ujikom\joni\bahan\Play2.png">
+                        <collision-poly>
+                            <point x="0.037037" y="0.0824742" />
+                            <point x="0.5" y="0.0103093" />
+                            <point x="0.958333" y="0.0927835" />
+                            <point x="0.986111" y="0.494845" />
+                            <point x="0.949074" y="0.886598" />
+                            <point x="0.5" y="0.938144" />
+                            <point x="0.0462963" y="0.896907" />
+                            <point x="0.00925926" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_2" sid="8543086332413443">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2487383409343293" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="D:\produktif\ujikom\joni\bahan\Button_50.png">
+                        <collision-poly>
+                            <point x="0.0752688" y="0.0729167" />
+                            <point x="0.494624" y="0.0104167" />
+                            <point x="0.903226" y="0.09375" />
+                            <point x="0.967742" y="0.5" />
+                            <point x="0.892473" y="0.895833" />
+                            <point x="0.494624" y="0.947917" />
+                            <point x="0.0967742" y="0.90625" />
+                            <point x="0.0107527" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NHHG" sid="5671617263105802">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="610324328086003" speed="5">
+                    <frame duration="1" hotspotX="0.500131" hotspotY="0.5" original-source="D:\produktif\ujikom\joni\bahan\NHHG.png">
+                        <collision-poly>
+                            <point x="0.00315043" y="0.0242915" />
+                            <point x="1" y="0" />
+                            <point x="0.994749" y="0.959514" />
+                            <point x="0.000262536" y="0.997976" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="5156621082943753">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground3" sid="1823781926260672">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\produktif\ujikom\joni\bahan\NHHG.png" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="4638996841913983">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4745726118583328">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\produktif\ujikom\joni\bahan\NHHG.png" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="1866943863167258">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1556660805108639">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\produktif\ujikom\joni\bahan\Untitled-1.png" />
+        </object-type>
+        <object-type name="Button_3" sid="1053355125668859">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3573438722878344" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\timbul\Game Countruck - Copy\Platformer\GUI\gui\button\Button_46.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0.0108696" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Untitled" sid="801509846442858">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2952060507918947" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\produktif\ujikom\joni\bahan\Untitled-1.png">
+                        <collision-poly>
+                            <point x="0.00909091" y="0.0192308" />
+                            <point x="0.990909" y="0.0192308" />
+                            <point x="0.990909" y="0.980769" />
+                            <point x="0.00909091" y="0.980769" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg4" sid="2438602305907903">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8909178157053555" speed="5">
+                    <frame duration="1" hotspotX="0.500439" hotspotY="0.50078" original-source="D:\produktif\ujikom\joni\bahan\bg2.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.999122" y="0.00156006" />
+                            <point x="0.999122" y="0.99844" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground6" sid="4377179214628794">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\produktif\ujikom\joni\bahan\bg2.png" />
+        </object-type>
+        <object-type name="NHHG2" sid="5644390297688774">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7903916099825952" speed="5">
+                    <frame duration="1" hotspotX="0.500423" hotspotY="0.5" original-source="D:\produktif\ujikom\joni si pembersih\bahan\NHHG.png">
+                        <collision-poly>
+                            <point x="0.00338696" y="0.0243902" />
+                            <point x="0.999153" y="0.00609756" />
+                            <point x="0.994073" y="0.957317" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HGF" sid="8813152759832813">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6341173249129402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500261" original-source="D:\produktif\ujikom\joni si pembersih\bahan\HGF.png">
+                        <collision-poly>
+                            <point x="0.0670144" y="0.0870245" />
+                            <point x="0.5" y="0.000521105" />
+                            <point x="0.932986" y="0.0870245" />
+                            <point x="0.998395" y="0.499739" />
+                            <point x="0.989567" y="0.986451" />
+                            <point x="0.0104334" y="0.986451" />
+                            <point x="0.000401284" y="0.499739" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BB" sid="4822562621346018">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3788080047166213" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501362" original-source="D:\produktif\ujikom\joni si pembersih\bahan\BTM.png">
+                        <collision-poly>
+                            <point x="0.0885714" y="0.0844687" />
+                            <point x="0.5" y="0" />
+                            <point x="0.908571" y="0.0871935" />
+                            <point x="0.997143" y="0.498638" />
+                            <point x="0.908571" y="0.912807" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0914286" y="0.912807" />
+                            <point x="0" y="0.498638" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont2" sid="5745114299035081">
+            <plugin id="Spritefont2" />
+            <texture original-source="D:\produktif\timbul\Game Countruck - Copy\Platformer\SpriteFont\SpriteFont_Vogue_ExtraBold_(50)_[0,0,0,0]_55x60.png" />
+        </object-type>
+        <object-type name="BH" sid="5849223068869849">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6069634249387167" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501362" original-source="D:\produktif\ujikom\joni si pembersih\bahan\BH1.png">
+                        <collision-poly>
+                            <point x="0.0885714" y="0.0844687" />
+                            <point x="0.5" y="0" />
+                            <point x="0.908571" y="0.0871935" />
+                            <point x="0.997143" y="0.498638" />
+                            <point x="0.908571" y="0.912807" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0914286" y="0.912807" />
+                            <point x="0" y="0.498638" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BK" sid="3081334189548294">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8724655451636043" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501362" original-source="D:\produktif\ujikom\joni si pembersih\bahan\BK.png">
+                        <collision-poly>
+                            <point x="0.0885714" y="0.0844687" />
+                            <point x="0.5" y="0" />
+                            <point x="0.908571" y="0.0871935" />
+                            <point x="0.997143" y="0.498638" />
+                            <point x="0.908571" y="0.912807" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0914286" y="0.912807" />
+                            <point x="0" y="0.498638" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+        <layout>level222.xml</layout>
+        <layout>OMLHN AREA.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>menu.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="1" />
+        <global-instance type="Touch" uid="87">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="88">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="91" />
+    </global-instances>
+    <sounds-folder>
+        <file name="Collect Gem.ogg" />
+        <file name="MattOglseby - 1.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
